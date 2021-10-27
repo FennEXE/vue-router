@@ -1,19 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Navigatie menu</h2>
+    <ul id="navMenu">
+      <li>
+        <a href="#HTML">Infopagina HTML</a>
+      </li>
+      <li>
+        <a href="#CSS">Infopagina CSS</a>
+      </li>
+      <li>
+        <a href="#JavaScript">JavaScript HTML</a>
+      </li>
+      <li>
+        <a href="#Laravel">Laravel HTML</a>
+      </li>
+      <li>
+        <a href="#Vue">Vue HTML</a>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>
@@ -24,5 +35,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#navMenu {
+  list-style: none;
+}
+
+#navMenu li {
+  display: inline-block;
+  margin: 10px;
 }
 </style>
