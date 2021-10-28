@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="container">
     <p>
       Vue.js is an open-source model&ndash;view&ndash;viewmodel front end
       JavaScript framework for building user interfaces and single-page

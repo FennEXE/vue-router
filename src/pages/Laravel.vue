@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="container">
     <p>
       Laravel is a free, open-source PHP web framework, created by Taylor Otwell
       and intended for the development of web applications following the
