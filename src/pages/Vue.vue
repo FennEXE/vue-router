@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "vuePage",
   props: {
     msg: String,
   },

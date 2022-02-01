@@ -45,7 +45,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "cssPage",
   props: {
     msg: String,
   },

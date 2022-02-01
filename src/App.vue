@@ -3,21 +3,22 @@
     <h2>Navigatie menu</h2>
     <ul id="navMenu">
       <li>
-        <a href="#HTML">Infopagina HTML</a>
+        <router-link to="HTML">Infopagina HTML</router-link>
       </li>
       <li>
-        <a href="#CSS">Infopagina CSS</a>
+        <router-link to="CSS">Infopagina CSS</router-link>
       </li>
       <li>
-        <a href="#JavaScript">JavaScript HTML</a>
+        <router-link to="JavaScript">JavaScript HTML</router-link>
       </li>
       <li>
-        <a href="#Laravel">Laravel HTML</a>
+        <router-link to="Laravel">Laravel HTML</router-link>
       </li>
       <li>
-        <a href="#Vue">Vue HTML</a>
+        <router-link to="Vue">Vue HTML</router-link>
       </li>
     </ul>
+  <router-view></router-view>
   </div>
 </template>
 
